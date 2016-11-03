@@ -1,6 +1,6 @@
 #msg = 'Codecraft Lab rocks!'
 print ('This is one of those pointless tests that determine some super spiritual')
-print ('word that means nothing to anyone!')
+print ('code that means nothing to anyone!')
 
 msg = raw_input('What is your full name?')
 
