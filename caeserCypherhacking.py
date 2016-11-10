@@ -1,8 +1,9 @@
 msg = 'PBQRPENSG YNO EBPXF!'
 ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
-for key in range(len(ALPHABET)):
+word = raw_input('What is a word that might be in the encrypted code(capitalize it)?')
 
+for key in range(len(ALPHABET)):
     result  =  ''
 
     for symbol in msg:
@@ -18,4 +19,5 @@ for key in range(len(ALPHABET)):
         else:
             result = result  + symbol
 
-    print('Key #%s: %s' % (key, result))
+    if word in result:
+        print(result)
